@@ -12,17 +12,6 @@ export class TodoService {
         return this.#dao.getAll()
     }
 
-    getAllOrdered = async (order) => {
-        switch (order.toLowerCase()) {
-            case "asc":
-                break;
-            case "desc":
-                break;
-            default:
-                break;
-        }
-    }
-
     getById = async id => {
         return this.#dao.getById(id)
     }

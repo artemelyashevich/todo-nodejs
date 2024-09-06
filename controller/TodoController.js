@@ -2,7 +2,7 @@ import { TodoService } from "../service/TodoService.js";
 
 export class TodoController {
 
-    #service;
+    #service
 
     constructor() {
         this.#service = new TodoService()
